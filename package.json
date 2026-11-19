@@ -1,0 +1,16 @@
+{
+  "name": "mergeweb",
+  "version": "1.0.0",
+  "description": "PeakSpark website with Vercel Web Analytics",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Static HTML site - no build needed'",
+    "dev": "python3 -m http.server 8000 || python -m SimpleHTTPServer 8000"
+  },
+  "keywords": ["analytics", "vercel"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
